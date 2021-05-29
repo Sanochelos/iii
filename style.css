@@ -1,0 +1,260 @@
+body{
+
+}
+.shapka{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo{
+	width:150px;
+	height: auto;
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-size:20px;
+
+}
+
+.vxod{
+		background-color:#73b658;
+	padding:20px;
+	width:140px;
+	border-radius:5px;
+	text-align: center;	-webkit-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+}
+
+
+.shapka1{
+	width:500px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.t{
+	font-size:60px;
+}
+.m{
+	font-size:20px;
+	margin-top:-10px;
+	margin-bottom:25px;
+}
+.shapka2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+		text-align: center;
+		background-image: url("1.png");
+}
+.knopka{
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	width:550px;
+	justify-content: space-between;
+	text-align: center;
+	margin-top:15px;
+
+}
+.nachat{
+	background-color:#73b658;
+	padding:18px;
+
+	color:white;
+	width:220px;
+	-webkit-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+}
+.yznat{
+	padding:18px;
+
+	width:220px;
+	-webkit-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+box-shadow: -2px 4px 12px 5px rgba(34, 60, 80, 0.2);
+}
+.osnovn{
+	width: all;
+	height:800px;
+	background-image:url("2.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:30% 50%;
+	text-align: right;
+	position: relative;
+}
+
+.textt{
+	position: absolute;
+	left:70%;
+	top:20%;
+	font-size:20px;
+}
+.textt1{
+	position: absolute;
+	left:70%;
+	top:10%;
+	font-size:40px;
+	color:blue;
+}
+.block{
+	width: all;
+	height:500px;
+	display: flex;
+	justify-content: space-around;
+}
+.block1{
+	width:300px;
+	height:580px;
+	border-radius:20px;
+	text-align: center;
+	-webkit-box-shadow: -6px 10px 12px 1px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -6px 10px 12px 1px rgba(34, 60, 80, 0.2);
+box-shadow: -6px 10px 12px 1px rgba(34, 60, 80, 0.2);
+font-size:20px;
+
+}
+.advantages{
+	padding-top:110px;
+}
+.k{
+	font-size:30px;
+}
+h1{
+	text-align: center;
+}
+.podval{
+	width: all;
+	height:250px;
+	display: flex;
+	justify-content: space-around;
+	margin-top:50px;
+}
+.slova{
+	width:500px;
+	height:200px;
+	display: flex;
+	justify-content: space-between;
+}
+.slova1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.block2{
+	display: flex;
+	width:100px;
+	height: all;
+	justify-content: space-around;
+}
+.logo1{width:80px;
+	height:40px;
+	margin-top:20px;
+}
+i{
+	width:40px;
+	height: 40px
+	margin-top:20px;
+}
+.one{
+	font-weight: bold;
+}
+p{font-family: 'Noto Sans JP', sans-serif;}
+h1{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+a{font-family: 'Noto Sans JP', sans-serif;}
+
+.advantages-head{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.advantages h2 {
+    text-align: center;
+}
+
+.advantages-head {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages-head img{
+    display: block;
+    width: 40%;
+}
+
+.advantages-body {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    width: 400px;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    height: 90px;
+}
+
+.card-alert {
+    border-left: 8px solid #EB5757;
+    font-size:20px;
+}
+
+.card-accept {
+    border-left: 8px solid #87B645;
+    font-size:20px;
+}
+.calc {
+    width: 900px;
+    margin: 0 auto;
+    margin-top:70px;
+}
+
+.calc h2 {
+    text-align: center;
+}
+
+.calc-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc-item {
+    display: flex;
+    flex-direction: column;
+}
+.price{
+	font-size:30px;
+	font-weight: bold;
+	color:#73b658;
+}
+.raschet{
+	font-size:20px;
+	margin:9px;
+}
+.stoimost{
+	font-size:20px;
+}
+.ttt{
+	font-size:20px;
+}
+.lefttt{
+	font-size:20px;
+	height: auto;
+}
